@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url('https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900');
+body{
+    margin: 0;
+    padding: 10px 0px;
+    background-color: #3184e7;
+    color: #eeeeee;
+    text-align: center;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Catamaran', sans-serif;
+    margin: auto;
+    width: 25em;
+    height: 30em;
+    padding: 0.5em;
+    background: #F09819;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid white;
+    border-radius: 20px 20px 120px 120px;
+	-webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white); 
+    filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white);
+    transition: all 0.5s ease;
+}
+.header:hover {
+    background-color: #ff1a1a;
+    background-image: linear-gradient(315deg, #ff1a1a 0%, #ffff00 74%);
+    padding: 20px;
+  }
+.header h1{ 
+    font-size: 40px;
+    -webkit-text-stroke: 2px black;
+}
+.header a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #3184e7;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px 4px;
+}
