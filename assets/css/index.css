@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url('https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900');
+
+@font-face {
+    font-family: supercell;
+    src: url(../fonts/Supercell-magic-webfont.x-font-ttf);
+}
+
 body{
     margin: 0;
     padding: 10px 0px;
@@ -12,14 +18,16 @@ body{
 .header {
     text-align: center;
     justify-content: center;
-    font-family: 'Catamaran', sans-serif;
     margin: auto;
     width: 25em;
     height: 35em;
     padding: 0.5em;
     background: #F09819;  /* fallback for old browsers */
-    background-image: linear-gradient(315deg, #58bcfb 0%,#ffe099 74%);
-    
+   
+    background-image: url('https://i.pinimg.com/originals/f5/10/5c/f5105cb8319d30cab59712376da334d3.jpg');
+    background-repeat: no-repeat;
+    background-size: 26em 36em;
+ 
     border: 1px solid white;
     border-radius: 20px 20px 120px 120px;
 	-webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 white); 
@@ -27,12 +35,14 @@ body{
     transition: all 0.5s ease;
 }
 .header:hover {
-    background-color: #ff1a1a;
-    background-image: linear-gradient(315deg, #ffe099 0%, #58bcfb 74%);
+    background-image: url('https://images.hdqwalls.com/download/pekka-clash-of-clans-gt-2160x3840.jpg');
+    background-repeat: no-repeat;
+    background-size: 26em 36em;
     
   }
 .header h1{ 
     font-size: 40px;
+    font-family: supercell;
     -webkit-text-stroke: 2px black;
 }
 .header a{
@@ -77,4 +87,9 @@ body{
             -webkit-animation-timing-function: linear;
             -webkit-animation-iteration-count: infinite;
             -webkit-animation-duration: 10s;
+}
+
+.header-bg {
+    
+    
 }
